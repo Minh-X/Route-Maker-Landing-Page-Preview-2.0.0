@@ -89,3 +89,9 @@ function imageLoadingSystem() {
     )} ${Math.floor(Math.random() * 255)} ${Math.floor(Math.random() * 255)})`;
   }
 }
+const img__scale  = document.querySelectorAll(".feature__img")
+for(let i = 0 ; i < img__scale.length ; i++){
+  img__scale[i].addEventListener("click", function(e){
+    img__scale[i].classList.add("img__scale")
+  })
+}

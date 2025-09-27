@@ -26,6 +26,11 @@ body {
 header {
   width: 100%;
 }
+.img__scale {
+  position: fixed;
+  width: 100vw;
+  height: 100dvh;
+}
 .nagative {
   width: 100%;
   display: flex;
@@ -272,6 +277,10 @@ nav a:hover::before {
   border: 0;
   cursor: pointer;
 }
+@media (max-width: 1000px){
+  
+}
+
 @keyframes autoname {
   0% {
     content: "Track.";
